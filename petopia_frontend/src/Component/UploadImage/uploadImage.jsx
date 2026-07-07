@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
-import "./UploadImage.css";
+import "./uploadImages.css";
 
 const UploadImages = () => {
   const { petId } = useParams();
