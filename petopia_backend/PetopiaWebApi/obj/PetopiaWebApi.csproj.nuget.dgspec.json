@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\Petopia-main\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj": {}
+    "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj": {}
   },
   "projects": {
-    "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\Petopia-main\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj": {
+    "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\Petopia-main\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj",
+        "projectUniqueName": "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj",
         "projectName": "PetopiaWebApi",
-        "projectPath": "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\Petopia-main\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj",
+        "projectPath": "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\petopia_backend\\PetopiaWebApi\\PetopiaWebApi.csproj",
         "packagesPath": "C:\\Users\\Shreyas\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\Petopia-main\\petopia_backend\\PetopiaWebApi\\obj\\",
+        "outputPath": "E:\\Documents(E)\\Imp_Docs\\Projects\\Petopia_Upload\\petopia_backend\\PetopiaWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,6 +84,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.19.1, )"
             }
           },
           "imports": [

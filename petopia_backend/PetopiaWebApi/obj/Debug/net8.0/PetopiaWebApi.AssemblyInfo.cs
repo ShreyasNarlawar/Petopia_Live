@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetopiaWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b82a74c5a4725057c6ba749cdf3fc667a7337af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d8f9757163752f3034681e319d32f0f009079c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetopiaWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetopiaWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
