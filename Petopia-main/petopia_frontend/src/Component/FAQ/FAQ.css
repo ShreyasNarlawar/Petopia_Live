@@ -1,0 +1,37 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-list {
+    margin-top: 20px;
+}
+
+.faq-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.icon.active {
+    transform: rotate(180deg); /* Rotate the icon when active */
+}
+
+.faq-answer {
+    padding: 15px;
+    background-color: #ffffff;
+}

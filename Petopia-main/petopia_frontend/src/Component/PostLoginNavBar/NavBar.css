@@ -1,0 +1,112 @@
+/* Fixed Navbar */
+.navbar {
+  position: fixed; /* Keeps it at the top of the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85); /* Semi-transparent black */
+  z-index: 1000; /* Ensure it's above all other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Glass effect */
+  transition: background-color 0.3s ease; /* Smooth transition on scroll */
+}
+
+/* Add Padding to Prevent Content Overlap */
+body {
+  padding-top: 70px; /* Height of the navbar */
+}
+
+/* Navbar Logo */
+.navbar-brand .logo {
+  max-height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand .logo:hover {
+  transform: scale(1.1);
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link.hover-effect:hover {
+  color: #ff6b6b;
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.navbar-nav .btn-outline-primary {
+  color: #ff6b6b;
+  border-color: #ff6b6b;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .btn-outline-primary:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.navbar-nav .btn-primary {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav .btn-primary:hover {
+  transform: scale(1.1);
+}
+
+/* Dropdown Menu */
+.navbar-nav .dropdown-menu {
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .navbar-brand .logo {
+    max-height: 40px;
+  }
+
+  .navbar-nav .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  padding-top: 70px; /* Adjust the height based on your navbar's actual height */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 70px; /* Define an explicit height if not already set */
+}

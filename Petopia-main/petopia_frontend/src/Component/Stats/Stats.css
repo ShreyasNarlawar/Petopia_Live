@@ -1,0 +1,114 @@
+/* General Styles for Stats Section */
+.stats-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .stats-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+    position: relative;
+  }
+  
+  .stats-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #007bff;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+  }
+  
+  /* Stats Grid Layout */
+  .stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Stat Card Styling */
+  .stat-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Stat Icon Styling */
+  .stat-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    fill: currentColor;
+  }
+  
+  .stat-icon path {
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-card:hover .stat-icon path {
+    transform: scale(1.1);
+  }
+  
+  /* Stat Value Styling */
+  .stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0;
+  }
+  
+  /* Stat Label Styling */
+  .stat-label {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .stat-card {
+      width: 100%;
+    }
+  
+    .stats-title {
+      font-size: 2rem;
+    }
+  
+    .stat-value {
+      font-size: 1.8rem;
+    }
+  
+    .stat-label {
+      font-size: 1rem;
+    }
+  }
+  

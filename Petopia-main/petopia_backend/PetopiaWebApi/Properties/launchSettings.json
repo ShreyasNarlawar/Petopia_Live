@@ -1,0 +1,41 @@
+﻿{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "iisSettings": { // If you want to use IIS Express
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:34205", // The URL IIS Express will use
+            "sslPort": 44395 // The SSL port IIS Express will use (if you're using HTTPS)
+        }
+    },
+    "profiles": { // The profiles you can select in Visual Studio
+        "http": { // A profile for HTTP (no SSL)
+            "commandName": "Project", // Use your project
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger", // Or whatever you want to open
+            "applicationUrl": "http://localhost:44395", // The port your app will listen on
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "https": { // A profile for HTTPS
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "applicationUrl": "https://localhost:7000;http://localhost:44395", // The port your app will listen on
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "IIS Express": { // If you want to use IIS Express
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

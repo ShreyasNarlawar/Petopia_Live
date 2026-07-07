@@ -1,0 +1,45 @@
+/* custom.css */
+
+/* General styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+/* Terms container */
+.terms-container {
+    max-width: 800px; /* Max width for the container */
+    margin: 2rem auto; /* Center the container */
+    padding: 2rem; /* Padding around the content */
+    background-color: white; /* White background for the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1 {
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+h2 {
+    color: #343a40; /* Darker color for subheadings */
+    margin-top: 1.5rem; /* Space above subheadings */
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6; /* Better line spacing */
+}
+
+/* List styles */
+ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Indent the list */
+}
+
+/* Contact information */
+.contact-info {
+    margin-top: 1rem; /* Space above contact info */
+    font-style: italic; /* Italicize the contact info */
+}

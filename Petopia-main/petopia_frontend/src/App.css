@@ -1,0 +1,111 @@
+/* General App Styles */
+.app-container {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navigation Bar */
+nav {
+  background: #ff6b6b;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcccb;
+}
+
+/* Footer */
+footer {
+  background: #2f3542;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer a {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffa07a;
+}
+
+/* Buttons */
+button {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #ff4d4d;
+}
+
+/* Page Content */
+.page-content {
+  padding: 2rem;
+}
+
+/* Links */
+a {
+  color: #ff6b6b;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff4d4d;
+}
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.not-found h1 {
+  font-size: 5rem;
+  color: #ff6b6b;
+}
+
+.not-found p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.not-found a {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff6b6b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.not-found a:hover {
+  background: #ff4d4d;
+}

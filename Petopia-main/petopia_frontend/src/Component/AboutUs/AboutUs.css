@@ -1,0 +1,61 @@
+/* AboutUs.css */
+
+/* Parent container styles */
+.parent-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100vh;
+  height: 100vh; /* Full viewport height */
+  background-color: #eaeaea; /* Optional: Background color for the parent */
+}
+
+.about-us-container {
+  margin: 150px;
+  margin-top: 500px;
+  width: 100vh;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  color: #333; /* Darker text color for better readability */
+  text-align: center; /* Center the title */
+}
+
+.about-title.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-text {
+  margin-bottom: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  color: #555; /* Slightly lighter text color for better readability */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.about-text.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-title {
+      font-size: 1.5rem; /* Smaller title on mobile */
+  }
+
+  .about-text {
+      font-size: 1rem; /* Smaller text on mobile */
+  }
+}
