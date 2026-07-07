@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|e:\\petopia\\petopia_backend\\petopiawebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|e:\\petopia\\petopia_backend\\petopiawebapi\\controllers\\petprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|solutionrelative:controllers\\petprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|e:\\petopia\\petopia_backend\\petopiawebapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|e:\\petopia\\petopia_backend\\petopiawebapi\\controllers\\petimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|solutionrelative:controllers\\petimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|e:\\petopia\\petopia_backend\\petopiawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D750EEB2-3044-4AD8-9AD2-47F896F05012}|PetopiaWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:30:50.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T13:31:52.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetImageController.cs",
+              "DocumentMoniker": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Controllers\\PetImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PetImageController.cs",
+              "ToolTip": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Controllers\\PetImageController.cs",
+              "RelativeToolTip": "Controllers\\PetImageController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAwK0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:42:38.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PetProfilesController.cs",
+              "DocumentMoniker": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Controllers\\PetProfilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PetProfilesController.cs",
+              "ToolTip": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Controllers\\PetProfilesController.cs",
+              "RelativeToolTip": "Controllers\\PetProfilesController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T02:35:05.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Petopia\\petopia_backend\\PetopiaWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T01:16:56.688Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

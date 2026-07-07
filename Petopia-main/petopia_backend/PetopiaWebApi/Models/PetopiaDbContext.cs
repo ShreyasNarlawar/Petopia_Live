@@ -50,10 +50,6 @@ public partial class PetopiaDbContext : DbContext
             entity.Property(e => e.Phone)
                 .HasMaxLength(15)
                 .HasColumnName("phone");
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
-                .HasColumnName("password")
-                .HasDefaultValue("");
         });
 
         modelBuilder.Entity<AdoptionStatus>(entity =>

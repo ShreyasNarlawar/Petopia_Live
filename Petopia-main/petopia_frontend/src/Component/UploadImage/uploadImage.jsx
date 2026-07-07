@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
-import "./uploadImage.css";
+import "./UploadImage.css";
 
 const UploadImages = () => {
   const { petId } = useParams();
@@ -27,7 +27,7 @@ const UploadImages = () => {
 
     try {
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/PetImage/upload`,
+        "https://localhost:44395/api/PetImage/upload",
         formData,
         {
           headers: {

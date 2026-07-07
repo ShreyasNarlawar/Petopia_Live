@@ -36,7 +36,7 @@ const Login = ({ onLogin }) => {
     try {
       setIsLoading(true); // Start loading
 
-      const response = await axios.post(`${import.meta.env.VITE_API_URL}/Users/login`, loginData, {
+      const response = await axios.post('https://localhost:44395/api/Users/login', loginData, {
         headers: {
           'Content-Type': 'application/json',
         },

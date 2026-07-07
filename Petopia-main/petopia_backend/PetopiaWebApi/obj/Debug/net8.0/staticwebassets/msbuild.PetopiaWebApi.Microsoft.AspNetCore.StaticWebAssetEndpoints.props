@@ -1,0 +1,568 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XYivMxxKezj/gei/OcLk7oYjIeXtJG8YrL83Y605WO0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1298"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XYivMxxKezj/gei/OcLk7oYjIeXtJG8YrL83Y605WO0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/css/site.fhbihvewv7.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fhbihvewv7"},{"Name":"integrity","Value":"sha256-XYivMxxKezj/gei/OcLk7oYjIeXtJG8YrL83Y605WO0="},{"Name":"label","Value":"_content/PetopiaWebApi/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1298"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XYivMxxKezj/gei/OcLk7oYjIeXtJG8YrL83Y605WO0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/favicon.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rolXg6EPar/b0V/M8X458MHZ5USegq5\u002Br8aD5outkxM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"85387"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022rolXg6EPar/b0V/M8X458MHZ5USegq5\u002Br8aD5outkxM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/favicon.mrjtt8pe3x.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mrjtt8pe3x"},{"Name":"integrity","Value":"sha256-rolXg6EPar/b0V/M8X458MHZ5USegq5\u002Br8aD5outkxM="},{"Name":"label","Value":"_content/PetopiaWebApi/favicon.ico"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"85387"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022rolXg6EPar/b0V/M8X458MHZ5USegq5\u002Br8aD5outkxM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/js/site.bnkqy1y0r8.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bnkqy1y0r8"},{"Name":"integrity","Value":"sha256-BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY="},{"Name":"label","Value":"_content/PetopiaWebApi/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"226"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"226"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LW0xHvzr15TDrWbZ3oC/SbKE43w0QXujtZ8j3MYh548="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"204139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LW0xHvzr15TDrWbZ3oC/SbKE43w0QXujtZ8j3MYh548=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.css.03oo8upvww.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"03oo8upvww"},{"Name":"integrity","Value":"sha256-FOBP3\u002BAHXtTW90Bvm3tcyi6dc89QfX48chz/ufOFBgw="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.css.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"536550"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022FOBP3\u002BAHXtTW90Bvm3tcyi6dc89QfX48chz/ufOFBgw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.css.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FOBP3\u002BAHXtTW90Bvm3tcyi6dc89QfX48chz/ufOFBgw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"536550"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022FOBP3\u002BAHXtTW90Bvm3tcyi6dc89QfX48chz/ufOFBgw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.jo60pyn25a.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jo60pyn25a"},{"Name":"integrity","Value":"sha256-LW0xHvzr15TDrWbZ3oC/SbKE43w0QXujtZ8j3MYh548="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"204139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LW0xHvzr15TDrWbZ3oC/SbKE43w0QXujtZ8j3MYh548=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LrVtmI6n\u002BjifPUdlbATnL/8yE6xGTXdqtJNOthFXw4o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"162723"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LrVtmI6n\u002BjifPUdlbATnL/8yE6xGTXdqtJNOthFXw4o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.min.css.j8cnqd2tbo.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j8cnqd2tbo"},{"Name":"integrity","Value":"sha256-s6vr5kpNdG1/VlNbixjYmlnb2a136WCFI0VzAPibHag="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.min.css.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"449114"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022s6vr5kpNdG1/VlNbixjYmlnb2a136WCFI0VzAPibHag=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s6vr5kpNdG1/VlNbixjYmlnb2a136WCFI0VzAPibHag="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"449114"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022s6vr5kpNdG1/VlNbixjYmlnb2a136WCFI0VzAPibHag=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.min.exm7ndtxmt.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"exm7ndtxmt"},{"Name":"integrity","Value":"sha256-LrVtmI6n\u002BjifPUdlbATnL/8yE6xGTXdqtJNOthFXw4o="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/dist/css/bootstrap.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"162723"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LrVtmI6n\u002BjifPUdlbATnL/8yE6xGTXdqtJNOthFXw4o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/js/bootstrap.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PL6TRawR8CxX3EE6G4TI\u002BPKnqRcJAvAVAyPcotcZrhM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"148171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PL6TRawR8CxX3EE6G4TI\u002BPKnqRcJAvAVAyPcotcZrhM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/js/bootstrap.min.3ylv7t8svg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ylv7t8svg"},{"Name":"integrity","Value":"sha256-JQS7jW22RoOsNfsoH4cRhDkP7TWBPitV1z0s3LmOHa4="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/dist/js/bootstrap.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59514"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JQS7jW22RoOsNfsoH4cRhDkP7TWBPitV1z0s3LmOHa4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/js/bootstrap.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JQS7jW22RoOsNfsoH4cRhDkP7TWBPitV1z0s3LmOHa4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"59514"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JQS7jW22RoOsNfsoH4cRhDkP7TWBPitV1z0s3LmOHa4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/dist/js/bootstrap.o5zdnh7w6k.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o5zdnh7w6k"},{"Name":"integrity","Value":"sha256-PL6TRawR8CxX3EE6G4TI\u002BPKnqRcJAvAVAyPcotcZrhM="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/dist/js/bootstrap.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PL6TRawR8CxX3EE6G4TI\u002BPKnqRcJAvAVAyPcotcZrhM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/LICENSE">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\LICENSE'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9AWkiZHFsbYwYF5RXDytf5Zd2LSP/cstjUIVkgc3lmk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00229AWkiZHFsbYwYF5RXDytf5Zd2LSP/cstjUIVkgc3lmk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/bootstrap/LICENSE.obhh09hfic">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\LICENSE'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"obhh09hfic"},{"Name":"integrity","Value":"sha256-9AWkiZHFsbYwYF5RXDytf5Zd2LSP/cstjUIVkgc3lmk="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/bootstrap/LICENSE"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00229AWkiZHFsbYwYF5RXDytf5Zd2LSP/cstjUIVkgc3lmk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KsMLwhPHtVs4j\u002BIJ2GBFNp08QSWM2luW0bYB\u002BYCWCqQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"19388"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KsMLwhPHtVs4j\u002BIJ2GBFNp08QSWM2luW0bYB\u002BYCWCqQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O8jRRKdv0aHR\u002BqhsXbcZGsjy5O\u002BhFeDg\u002B20X0AsrZIU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5827"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O8jRRKdv0aHR\u002BqhsXbcZGsjy5O\u002BhFeDg\u002B20X0AsrZIU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.xhs2r43244.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xhs2r43244"},{"Name":"integrity","Value":"sha256-O8jRRKdv0aHR\u002BqhsXbcZGsjy5O\u002BhFeDg\u002B20X0AsrZIU="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5827"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O8jRRKdv0aHR\u002BqhsXbcZGsjy5O\u002BhFeDg\u002B20X0AsrZIU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.y67re64ema.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y67re64ema"},{"Name":"integrity","Value":"sha256-KsMLwhPHtVs4j\u002BIJ2GBFNp08QSWM2luW0bYB\u002BYCWCqQ="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19388"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KsMLwhPHtVs4j\u002BIJ2GBFNp08QSWM2luW0bYB\u002BYCWCqQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/additional-methods.6f8zsq5kkh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\additional-methods.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6f8zsq5kkh"},{"Name":"integrity","Value":"sha256-Yqm7nBDmRd4m9fIT6y6nZjEfdNnz8HFYF9v06nZzsWY="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation/dist/additional-methods.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51469"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Yqm7nBDmRd4m9fIT6y6nZjEfdNnz8HFYF9v06nZzsWY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/additional-methods.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\additional-methods.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Yqm7nBDmRd4m9fIT6y6nZjEfdNnz8HFYF9v06nZzsWY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"51469"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Yqm7nBDmRd4m9fIT6y6nZjEfdNnz8HFYF9v06nZzsWY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/additional-methods.min.h4rzqcbqmf.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\additional-methods.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h4rzqcbqmf"},{"Name":"integrity","Value":"sha256-Ea4tWB4HoZ5sZvAhS17fcPqUHaB1T39G8gFP0ZKZz8g="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation/dist/additional-methods.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22177"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Ea4tWB4HoZ5sZvAhS17fcPqUHaB1T39G8gFP0ZKZz8g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/additional-methods.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\additional-methods.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ea4tWB4HoZ5sZvAhS17fcPqUHaB1T39G8gFP0ZKZz8g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22177"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Ea4tWB4HoZ5sZvAhS17fcPqUHaB1T39G8gFP0ZKZz8g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/jquery.validate.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\jquery.validate.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nXjkzGNGhiXfX4B7/y8hJnRpRXoSntwjRbZ/DEieIiQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"52145"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nXjkzGNGhiXfX4B7/y8hJnRpRXoSntwjRbZ/DEieIiQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/jquery.validate.jwd010y60b.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\jquery.validate.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jwd010y60b"},{"Name":"integrity","Value":"sha256-nXjkzGNGhiXfX4B7/y8hJnRpRXoSntwjRbZ/DEieIiQ="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation/dist/jquery.validate.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"52145"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nXjkzGNGhiXfX4B7/y8hJnRpRXoSntwjRbZ/DEieIiQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/jquery.validate.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\jquery.validate.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cDLSALGWBepA7XTWuC0/XxbSp1pbwgqXL0RlhEj/3Ro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25070"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cDLSALGWBepA7XTWuC0/XxbSp1pbwgqXL0RlhEj/3Ro=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/dist/jquery.validate.min.omwt02q866.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\jquery.validate.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"omwt02q866"},{"Name":"integrity","Value":"sha256-cDLSALGWBepA7XTWuC0/XxbSp1pbwgqXL0RlhEj/3Ro="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation/dist/jquery.validate.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25070"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022cDLSALGWBepA7XTWuC0/XxbSp1pbwgqXL0RlhEj/3Ro=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/LICENSE.i8vr1kqvm7.md">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\LICENSE.md'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i8vr1kqvm7"},{"Name":"integrity","Value":"sha256-HlgaHlSgTQH2IlIdgElS6U8OpXMvcj5fHWtfygOskm8="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery-validation/LICENSE.md"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1098"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\u0022HlgaHlSgTQH2IlIdgElS6U8OpXMvcj5fHWtfygOskm8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery-validation/LICENSE.md">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\LICENSE.md'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HlgaHlSgTQH2IlIdgElS6U8OpXMvcj5fHWtfygOskm8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1098"},{"Name":"Content-Type","Value":"text/markdown"},{"Name":"ETag","Value":"\u0022HlgaHlSgTQH2IlIdgElS6U8OpXMvcj5fHWtfygOskm8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/dist/jquery.acqcjqjq71.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"acqcjqjq71"},{"Name":"integrity","Value":"sha256-pqTfKTZh3YKeixin3pECDYbuGRfBjP7nc\u002BXo8Ehaoh8="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery/dist/jquery.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"288583"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pqTfKTZh3YKeixin3pECDYbuGRfBjP7nc\u002BXo8Ehaoh8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/dist/jquery.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pqTfKTZh3YKeixin3pECDYbuGRfBjP7nc\u002BXo8Ehaoh8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"288583"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pqTfKTZh3YKeixin3pECDYbuGRfBjP7nc\u002BXo8Ehaoh8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/dist/jquery.min.8twown2bj5.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8twown2bj5"},{"Name":"integrity","Value":"sha256-HHgMn9NZQgdsscVcyPDsoDGW2J865qwoI5WEwX/hOyc="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery/dist/jquery.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89504"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HHgMn9NZQgdsscVcyPDsoDGW2J865qwoI5WEwX/hOyc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/dist/jquery.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HHgMn9NZQgdsscVcyPDsoDGW2J865qwoI5WEwX/hOyc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"89504"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HHgMn9NZQgdsscVcyPDsoDGW2J865qwoI5WEwX/hOyc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/dist/jquery.min.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.min.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qw8XrdkYl8M160LFCDRk\u002B5rwcmLatmxELm84iPqHpi8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"137975"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022qw8XrdkYl8M160LFCDRk\u002B5rwcmLatmxELm84iPqHpi8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/dist/jquery.min.nxr18lxtbg.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\dist\jquery.min.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nxr18lxtbg"},{"Name":"integrity","Value":"sha256-qw8XrdkYl8M160LFCDRk\u002B5rwcmLatmxELm84iPqHpi8="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery/dist/jquery.min.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"137975"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022qw8XrdkYl8M160LFCDRk\u002B5rwcmLatmxELm84iPqHpi8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/LICENSE.1wypnb2lvq.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1wypnb2lvq"},{"Name":"integrity","Value":"sha256-4V\u002B1RMe7hShDMctGgrRfOMyySshmbaaoJB1Rz7YYK\u002BY="},{"Name":"label","Value":"_content/PetopiaWebApi/lib/jquery/LICENSE.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1100"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00224V\u002B1RMe7hShDMctGgrRfOMyySshmbaaoJB1Rz7YYK\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/lib/jquery/LICENSE.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4V\u002B1RMe7hShDMctGgrRfOMyySshmbaaoJB1Rz7YYK\u002BY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1100"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00224V\u002B1RMe7hShDMctGgrRfOMyySshmbaaoJB1Rz7YYK\u002BY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/06e22a60-a14a-455f-afe5-82868a333d07.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06e22a60-a14a-455f-afe5-82868a333d07.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"221573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/06e22a60-a14a-455f-afe5-82868a333d07.xe3qtchir5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06e22a60-a14a-455f-afe5-82868a333d07.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xe3qtchir5"},{"Name":"integrity","Value":"sha256-N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/06e22a60-a14a-455f-afe5-82868a333d07.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"221573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/0ee5029c-3f79-4905-a5da-65bcd1975382.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0ee5029c-3f79-4905-a5da-65bcd1975382.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/0ee5029c-3f79-4905-a5da-65bcd1975382.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/0ee5029c-3f79-4905-a5da-65bcd1975382.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0ee5029c-3f79-4905-a5da-65bcd1975382.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/12408539-4453-4cf4-8cdf-7fa44caa31fe.8ft87cv8r6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\12408539-4453-4cf4-8cdf-7fa44caa31fe.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8ft87cv8r6"},{"Name":"integrity","Value":"sha256-DLJ\u002BYdsGS\u002BaF7C6m/\u002BgsSTma0Qkrx6QCzoq/RaRr7L8="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/12408539-4453-4cf4-8cdf-7fa44caa31fe.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4772657"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DLJ\u002BYdsGS\u002BaF7C6m/\u002BgsSTma0Qkrx6QCzoq/RaRr7L8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:48:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/12408539-4453-4cf4-8cdf-7fa44caa31fe.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\12408539-4453-4cf4-8cdf-7fa44caa31fe.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DLJ\u002BYdsGS\u002BaF7C6m/\u002BgsSTma0Qkrx6QCzoq/RaRr7L8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4772657"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DLJ\u002BYdsGS\u002BaF7C6m/\u002BgsSTma0Qkrx6QCzoq/RaRr7L8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:48:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/2be55557-d289-414d-be03-f890e9a8ce46.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2be55557-d289-414d-be03-f890e9a8ce46.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/2be55557-d289-414d-be03-f890e9a8ce46.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/2be55557-d289-414d-be03-f890e9a8ce46.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2be55557-d289-414d-be03-f890e9a8ce46.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/36148ed3-f74f-43fc-989b-5d1418bd48b5.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\36148ed3-f74f-43fc-989b-5d1418bd48b5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/36148ed3-f74f-43fc-989b-5d1418bd48b5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/36148ed3-f74f-43fc-989b-5d1418bd48b5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\36148ed3-f74f-43fc-989b-5d1418bd48b5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/38b34842-d3a6-439e-b185-91ea7e0d547f.cv20p2y7q4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\38b34842-d3a6-439e-b185-91ea7e0d547f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cv20p2y7q4"},{"Name":"integrity","Value":"sha256-iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/38b34842-d3a6-439e-b185-91ea7e0d547f.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50800"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/38b34842-d3a6-439e-b185-91ea7e0d547f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\38b34842-d3a6-439e-b185-91ea7e0d547f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50800"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/4321c019-c001-4928-8a44-1129c66c7e1d.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4321c019-c001-4928-8a44-1129c66c7e1d.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/4321c019-c001-4928-8a44-1129c66c7e1d.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/4321c019-c001-4928-8a44-1129c66c7e1d.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4321c019-c001-4928-8a44-1129c66c7e1d.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/4be028e1-448a-4087-9281-7ca51969e4da.bqlz5p676g.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4be028e1-448a-4087-9281-7ca51969e4da.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bqlz5p676g"},{"Name":"integrity","Value":"sha256-PV64xEz\u002B1y3pXNyV7FVVsq0sAiVqvmhbjRBbi7jF\u002BMU="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/4be028e1-448a-4087-9281-7ca51969e4da.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2112754"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PV64xEz\u002B1y3pXNyV7FVVsq0sAiVqvmhbjRBbi7jF\u002BMU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/4be028e1-448a-4087-9281-7ca51969e4da.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4be028e1-448a-4087-9281-7ca51969e4da.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PV64xEz\u002B1y3pXNyV7FVVsq0sAiVqvmhbjRBbi7jF\u002BMU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2112754"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PV64xEz\u002B1y3pXNyV7FVVsq0sAiVqvmhbjRBbi7jF\u002BMU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/6d1ddadf-6534-4925-b3d8-f9e90f47bbb2.cn6yvy4aud.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6d1ddadf-6534-4925-b3d8-f9e90f47bbb2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cn6yvy4aud"},{"Name":"integrity","Value":"sha256-2KLGEUukwYyBRv9YGxc3PEAw/Yr/k6kmND2Ql1FC2fQ="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/6d1ddadf-6534-4925-b3d8-f9e90f47bbb2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80514"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222KLGEUukwYyBRv9YGxc3PEAw/Yr/k6kmND2Ql1FC2fQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:59:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/6d1ddadf-6534-4925-b3d8-f9e90f47bbb2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6d1ddadf-6534-4925-b3d8-f9e90f47bbb2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2KLGEUukwYyBRv9YGxc3PEAw/Yr/k6kmND2Ql1FC2fQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80514"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222KLGEUukwYyBRv9YGxc3PEAw/Yr/k6kmND2Ql1FC2fQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:59:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/71f6763d-cbf8-4f82-a964-f6f7a3a11907.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\71f6763d-cbf8-4f82-a964-f6f7a3a11907.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"221573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/71f6763d-cbf8-4f82-a964-f6f7a3a11907.xe3qtchir5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\71f6763d-cbf8-4f82-a964-f6f7a3a11907.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xe3qtchir5"},{"Name":"integrity","Value":"sha256-N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/71f6763d-cbf8-4f82-a964-f6f7a3a11907.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"221573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/7dd41660-7767-490f-8552-3ed67929aa47.2czrcdknel.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7dd41660-7767-490f-8552-3ed67929aa47.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2czrcdknel"},{"Name":"integrity","Value":"sha256-osvICCif0ix06pzCsS9IcrF9F3QYA32qcwVn0WpST5A="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/7dd41660-7767-490f-8552-3ed67929aa47.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"365984"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022osvICCif0ix06pzCsS9IcrF9F3QYA32qcwVn0WpST5A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/7dd41660-7767-490f-8552-3ed67929aa47.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7dd41660-7767-490f-8552-3ed67929aa47.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-osvICCif0ix06pzCsS9IcrF9F3QYA32qcwVn0WpST5A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"365984"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022osvICCif0ix06pzCsS9IcrF9F3QYA32qcwVn0WpST5A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/7f8bb868-d9a8-4f24-bf2d-b8a7c39cea16.hz2g1s9nv3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7f8bb868-d9a8-4f24-bf2d-b8a7c39cea16.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hz2g1s9nv3"},{"Name":"integrity","Value":"sha256-46uWl4bCHaTGMopffqGqCBx8H24Jj2ooXDtb5XhbRMM="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/7f8bb868-d9a8-4f24-bf2d-b8a7c39cea16.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"169350"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002246uWl4bCHaTGMopffqGqCBx8H24Jj2ooXDtb5XhbRMM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/7f8bb868-d9a8-4f24-bf2d-b8a7c39cea16.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7f8bb868-d9a8-4f24-bf2d-b8a7c39cea16.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-46uWl4bCHaTGMopffqGqCBx8H24Jj2ooXDtb5XhbRMM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"169350"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002246uWl4bCHaTGMopffqGqCBx8H24Jj2ooXDtb5XhbRMM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/802ecbd1-e515-4632-bfaa-c3948c54a673.ckzkroy92i.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\802ecbd1-e515-4632-bfaa-c3948c54a673.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ckzkroy92i"},{"Name":"integrity","Value":"sha256-DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/802ecbd1-e515-4632-bfaa-c3948c54a673.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"117512"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/802ecbd1-e515-4632-bfaa-c3948c54a673.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\802ecbd1-e515-4632-bfaa-c3948c54a673.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"117512"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/9c6679cd-01b7-4bdb-aafe-b6447960618a.faj95lomw7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9c6679cd-01b7-4bdb-aafe-b6447960618a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"faj95lomw7"},{"Name":"integrity","Value":"sha256-GZ2qRNzi3sfEpe93voBofCL7VLc3rVKF1IQUh9R10mA="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/9c6679cd-01b7-4bdb-aafe-b6447960618a.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GZ2qRNzi3sfEpe93voBofCL7VLc3rVKF1IQUh9R10mA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/9c6679cd-01b7-4bdb-aafe-b6447960618a.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9c6679cd-01b7-4bdb-aafe-b6447960618a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GZ2qRNzi3sfEpe93voBofCL7VLc3rVKF1IQUh9R10mA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GZ2qRNzi3sfEpe93voBofCL7VLc3rVKF1IQUh9R10mA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/9fb13242-9c1a-4af4-9a5e-3876bf0c8eb0.ckzkroy92i.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9fb13242-9c1a-4af4-9a5e-3876bf0c8eb0.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ckzkroy92i"},{"Name":"integrity","Value":"sha256-DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/9fb13242-9c1a-4af4-9a5e-3876bf0c8eb0.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"117512"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/9fb13242-9c1a-4af4-9a5e-3876bf0c8eb0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9fb13242-9c1a-4af4-9a5e-3876bf0c8eb0.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"117512"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DKzsgKBEJ4IqWfbwHwwQMGFz3nTc5Pp/JH8V6cX8c28=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/a071b460-903a-4f62-a5e4-ab9b62234336.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a071b460-903a-4f62-a5e4-ab9b62234336.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/a071b460-903a-4f62-a5e4-ab9b62234336.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/a071b460-903a-4f62-a5e4-ab9b62234336.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a071b460-903a-4f62-a5e4-ab9b62234336.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/af468f4b-1fb3-4ecf-aa43-f11d3c29ec0b.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af468f4b-1fb3-4ecf-aa43-f11d3c29ec0b.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/af468f4b-1fb3-4ecf-aa43-f11d3c29ec0b.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/af468f4b-1fb3-4ecf-aa43-f11d3c29ec0b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af468f4b-1fb3-4ecf-aa43-f11d3c29ec0b.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/b50eb180-bdef-420d-b42c-66ca26f16eb6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b50eb180-bdef-420d-b42c-66ca26f16eb6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"221573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/b50eb180-bdef-420d-b42c-66ca26f16eb6.xe3qtchir5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b50eb180-bdef-420d-b42c-66ca26f16eb6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xe3qtchir5"},{"Name":"integrity","Value":"sha256-N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/b50eb180-bdef-420d-b42c-66ca26f16eb6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"221573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022N\u002B92JyIKJta\u002BJZsfiocQyCA2/nJqLABc9XUmCwWXAoI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/ba10b0c3-056c-4fa6-9a6e-87aaba150ae3.ehr2x4xpxe.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ba10b0c3-056c-4fa6-9a6e-87aaba150ae3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ehr2x4xpxe"},{"Name":"integrity","Value":"sha256-opj4JRy4V1sVElDRQ5MrnCk9IekrTITL8Zeg4bEA6kQ="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/ba10b0c3-056c-4fa6-9a6e-87aaba150ae3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"257531"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022opj4JRy4V1sVElDRQ5MrnCk9IekrTITL8Zeg4bEA6kQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:54:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/ba10b0c3-056c-4fa6-9a6e-87aaba150ae3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ba10b0c3-056c-4fa6-9a6e-87aaba150ae3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-opj4JRy4V1sVElDRQ5MrnCk9IekrTITL8Zeg4bEA6kQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"257531"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022opj4JRy4V1sVElDRQ5MrnCk9IekrTITL8Zeg4bEA6kQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:54:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/c21dfba8-3d1b-4002-841c-7efbf4430ca6.29ij8fs200.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c21dfba8-3d1b-4002-841c-7efbf4430ca6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"29ij8fs200"},{"Name":"integrity","Value":"sha256-2jgj80BI5YeWc/DlykCB\u002BH0OReuEs5dr9eGpXy8mI2Y="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/c21dfba8-3d1b-4002-841c-7efbf4430ca6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94799"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00222jgj80BI5YeWc/DlykCB\u002BH0OReuEs5dr9eGpXy8mI2Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/c21dfba8-3d1b-4002-841c-7efbf4430ca6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c21dfba8-3d1b-4002-841c-7efbf4430ca6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2jgj80BI5YeWc/DlykCB\u002BH0OReuEs5dr9eGpXy8mI2Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94799"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00222jgj80BI5YeWc/DlykCB\u002BH0OReuEs5dr9eGpXy8mI2Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/decd5ccb-219b-4932-a6cc-c1a7c9fb21e7.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\decd5ccb-219b-4932-a6cc-c1a7c9fb21e7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/decd5ccb-219b-4932-a6cc-c1a7c9fb21e7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/decd5ccb-219b-4932-a6cc-c1a7c9fb21e7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\decd5ccb-219b-4932-a6cc-c1a7c9fb21e7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/e86d18a5-dc6f-422c-b14a-21ecf5377c84.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e86d18a5-dc6f-422c-b14a-21ecf5377c84.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/e86d18a5-dc6f-422c-b14a-21ecf5377c84.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/e86d18a5-dc6f-422c-b14a-21ecf5377c84.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e86d18a5-dc6f-422c-b14a-21ecf5377c84.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/f31d6b99-8b54-43c3-aa6d-361c1d3a5a78.cv20p2y7q4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f31d6b99-8b54-43c3-aa6d-361c1d3a5a78.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cv20p2y7q4"},{"Name":"integrity","Value":"sha256-iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/f31d6b99-8b54-43c3-aa6d-361c1d3a5a78.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50800"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/f31d6b99-8b54-43c3-aa6d-361c1d3a5a78.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f31d6b99-8b54-43c3-aa6d-361c1d3a5a78.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50800"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022iO/jps6SL0VjvB1EC3DPAleEORaFcGChFQ9sTJVA1ek=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/f546ad6e-016c-4070-867a-0bd660d3b964.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f546ad6e-016c-4070-867a-0bd660d3b964.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/f546ad6e-016c-4070-867a-0bd660d3b964.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/f546ad6e-016c-4070-867a-0bd660d3b964.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f546ad6e-016c-4070-867a-0bd660d3b964.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/f90dd690-e1a3-4e6c-9847-b916738f4102.4zvzccu2ti.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f90dd690-e1a3-4e6c-9847-b916738f4102.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zvzccu2ti"},{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/f90dd690-e1a3-4e6c-9847-b916738f4102.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/f90dd690-e1a3-4e6c-9847-b916738f4102.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f90dd690-e1a3-4e6c-9847-b916738f4102.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"366399"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022oCjid2Oo6A92mVojT9F/LFdEuuuUBdYTaditSc7W8AE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/fbcb65c8-a622-4d5d-bedc-fb62e4f63d64.nt5g23df4c.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fbcb65c8-a622-4d5d-bedc-fb62e4f63d64.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nt5g23df4c"},{"Name":"integrity","Value":"sha256-ez88NrWLs9Qdlq5bRztA1rORRsH2NGsMWHRlgmHicy0="},{"Name":"label","Value":"_content/PetopiaWebApi/uploads/fbcb65c8-a622-4d5d-bedc-fb62e4f63d64.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26352"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ez88NrWLs9Qdlq5bRztA1rORRsH2NGsMWHRlgmHicy0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PetopiaWebApi/uploads/fbcb65c8-a622-4d5d-bedc-fb62e4f63d64.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fbcb65c8-a622-4d5d-bedc-fb62e4f63d64.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ez88NrWLs9Qdlq5bRztA1rORRsH2NGsMWHRlgmHicy0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26352"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ez88NrWLs9Qdlq5bRztA1rORRsH2NGsMWHRlgmHicy0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 12:13:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

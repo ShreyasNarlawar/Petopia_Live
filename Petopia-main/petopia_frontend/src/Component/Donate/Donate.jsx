@@ -97,7 +97,7 @@ const Donate = () => {
 
       // First, submit the pet profile data
       const petProfileResponse = await axios.post(
-        `${import.meta.env.VITE_API_URL}/PetProfile`,
+        "https://localhost:44395/api/PetProfile",
         petProfileData
       );
 

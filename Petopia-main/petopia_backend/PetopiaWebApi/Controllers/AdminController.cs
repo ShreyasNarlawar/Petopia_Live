@@ -1,9 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetopiaWebApi.Models;
-using PetopiaWebApi.Services;
 
 
 namespace PetopiaWebApi.Controllers
@@ -13,12 +11,10 @@ namespace PetopiaWebApi.Controllers
     public class AdminController : ControllerBase
     {
         private readonly PetopiaDbContext context;
-        private readonly TokenService tokenService;
 
-        public AdminController(PetopiaDbContext context, TokenService tokenService)
+        public AdminController(PetopiaDbContext context)
         {
             this.context = context;
-            this.tokenService = tokenService;
         }
 
         [HttpGet]
@@ -108,7 +104,6 @@ namespace PetopiaWebApi.Controllers
                 Email = adminDto.Email,
                 AdminId = adminDto.AdminId,
                 Phone = adminDto.Phone,
-                Password = BCrypt.Net.BCrypt.HashPassword(adminDto.Password),
             };
 
             await context.Admins.AddAsync(admin);
@@ -120,19 +115,13 @@ namespace PetopiaWebApi.Controllers
         public async Task<ActionResult<string>> Login(AdminLoginDto adminLoginDto)
         {
             var admin = await context.Admins.FirstOrDefaultAsync(u => u.Email == adminLoginDto.Email);
-            if (admin == null || !BCrypt.Net.BCrypt.Verify(adminLoginDto.Password, admin.Password))
+            if (admin == null || admin.AdminId != adminLoginDto.AdminId) // Compare plain text password
             {
                 return Unauthorized("Invalid credentials.");
             }
 
-            var token = tokenService.GenerateToken(admin.AdminId, admin.Email, "Admin");
-            return Ok(new
-            {
-                token,
-                adminId = admin.AdminId,
-                name = admin.Name,
-                email = admin.Email
-            });
+            // Generate a token (you can implement JWT here)
+            return Ok("Login successful.");
         }
 
         public class AdminDto
@@ -141,18 +130,12 @@ namespace PetopiaWebApi.Controllers
             public string Name { get; set; } = null!;
             public string? Phone { get; set; }
             public string Email { get; set; } = null!;
-
-            [Required(ErrorMessage = "Password is required.")]
-            [StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters long.")]
-            public string Password { get; set; } = null!;
         }
 
         public class AdminLoginDto
         {
+            public int AdminId { get; set; }
             public string Email { get; set; } = null!;
-
-            [Required(ErrorMessage = "Password is required.")]
-            public string Password { get; set; } = null!;
         }
     }
 }

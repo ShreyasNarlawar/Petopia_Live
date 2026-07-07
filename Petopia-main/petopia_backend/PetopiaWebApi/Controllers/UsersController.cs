@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetopiaWebApi.Models;
-using PetopiaWebApi.Services;
 
 namespace PetopiaWebApi.Controllers
 {
@@ -11,12 +10,10 @@ namespace PetopiaWebApi.Controllers
     public class UsersController : ControllerBase
     {
         private readonly PetopiaDbContext context;
-        private readonly TokenService tokenService;
 
-        public UsersController(PetopiaDbContext context, TokenService tokenService)
+        public UsersController(PetopiaDbContext context)
         {
             this.context = context;
-            this.tokenService = tokenService;
         }
 
         // GET: api/users
@@ -76,7 +73,7 @@ namespace PetopiaWebApi.Controllers
             // Update user properties
             user.Name = userDto.Name;
             user.Email = userDto.Email;
-            user.Password = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+            user.Password = userDto.Password; // Hash the new password
             user.PhoneNo = userDto.PhoneNo;
             user.Location = userDto.Location;
             user.UserRole = userDto.UserRole;
@@ -115,7 +112,7 @@ namespace PetopiaWebApi.Controllers
             {
                 Name = userDto.Name,
                 Email = userDto.Email,
-                Password = BCrypt.Net.BCrypt.HashPassword(userDto.Password),
+                Password = userDto.Password, // Store plain text password
                 PhoneNo = userDto.PhoneNo,
                 Location = userDto.Location,
                 UserRole = userDto.UserRole
@@ -132,20 +129,13 @@ namespace PetopiaWebApi.Controllers
         public async Task<ActionResult<string>> Login(UserLoginDto userLoginDto)
         {
             var user = await context.Users.FirstOrDefaultAsync(u => u.Email == userLoginDto.Email);
-            if (user == null || !BCrypt.Net.BCrypt.Verify(userLoginDto.Password, user.Password))
+            if (user == null || user.Password != userLoginDto.Password) // Compare plain text password
             {
                 return Unauthorized("Invalid credentials.");
             }
 
-            var token = tokenService.GenerateToken(user.UserId, user.Email, "User");
-            return Ok(new
-            {
-                token,
-                userId = user.UserId,
-                name = user.Name,
-                email = user.Email,
-                userRole = user.UserRole
-            });
+            // Generate a token (you can implement JWT here)
+            return Ok("Login successful.");
         }
 
 

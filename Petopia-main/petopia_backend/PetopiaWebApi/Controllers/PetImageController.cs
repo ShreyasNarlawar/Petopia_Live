@@ -170,5 +170,3 @@ namespace PetopiaWebApi.Controllers
     }
 }
 
-
-PetImage Controller
